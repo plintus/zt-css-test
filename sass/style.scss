@@ -18,9 +18,9 @@ h1, h2, h3, h4, h5, {
 }
 
 body {
+  @extend %serifs;
   background: $dark_gray;
   margin: 0;
-  @extend %serifs;
   font-size: 16px;
   line-height: 24px;
   color: #989899;
@@ -85,7 +85,7 @@ a {
         ul {
           display: block;
           padding: 0;
-          top: 140px;
+          top: 138px;
           height: auto;
           background: rgba(black, 0.4);
           width: 200px;
@@ -137,8 +137,8 @@ a {
     padding: 12px;
     margin-bottom: 48px;
     .user-block-title {
-      font-size: 18px;
       @extend %sans;
+      font-size: 18px;
     }
     ul {
       margin: 0;
