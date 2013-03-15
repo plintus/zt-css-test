@@ -1,6 +1,14 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <script>
+    $(function() {
+      $( "#datepicker" ).datepicker();
+    });
+    </script>
   </head>
 
   <body class="basic-page">
@@ -28,6 +36,9 @@
 
       <div id="main-content">
         <h1 class="page-title">Page title</h1>
+
+        <!-- Add datepicker here -->
+
         <div id="content-left">
           <h2>Latest News</h2>
           <div class="news-article">
