@@ -1,0 +1,230 @@
+/* line 3, ../sass/style.scss */
+body {
+  font-family: Georgia, Times New Roman, Times, serif;
+}
+
+/* line 7, ../sass/style.scss */
+h1, h2, h3, h4, h5, #content-right #user-menu-block .user-block-title, .post-date {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 20, ../sass/style.scss */
+body {
+  background: #505052;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #989899;
+}
+/* line 27, ../sass/style.scss */
+body p {
+  margin-top: 0;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 34, ../sass/style.scss */
+a {
+  color: #3e5481;
+  text-decoration: none;
+}
+/* line 37, ../sass/style.scss */
+a:hover {
+  color: #90a2d3;
+}
+
+/* line 42, ../sass/style.scss */
+#page {
+  background: white;
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+  padding-bottom: 48px;
+  overflow: hidden;
+}
+
+/* line 52, ../sass/style.scss */
+#logo a {
+  display: block;
+  background: url(../images/logo.png) no-repeat;
+  text-indent: -1000px;
+  height: 50px;
+}
+
+/* line 60, ../sass/style.scss */
+.header {
+  padding: 24px 48px;
+}
+
+/* line 64, ../sass/style.scss */
+#main-nav {
+  background: #60687d;
+  display: block;
+  overflow: hidden;
+  height: 40px;
+  background: #454b5a;
+}
+/* line 71, ../sass/style.scss */
+#main-nav ul {
+  margin: 0;
+}
+/* line 73, ../sass/style.scss */
+#main-nav ul li {
+  float: left;
+  display: block;
+  padding: 12px;
+}
+/* line 77, ../sass/style.scss */
+#main-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+/* line 80, ../sass/style.scss */
+#main-nav ul li a:hover {
+  color: #90a2d3;
+}
+/* line 85, ../sass/style.scss */
+#main-nav ul li:hover ul {
+  display: block;
+  padding: 0;
+  top: 138px;
+  height: auto;
+  background: rgba(0, 0, 0, 0.4);
+  width: 200px;
+  position: absolute;
+  z-index: 1000;
+  display: block;
+  overflow: hidden;
+}
+/* line 98, ../sass/style.scss */
+#main-nav ul li ul {
+  display: none;
+}
+/* line 100, ../sass/style.scss */
+#main-nav ul li ul li {
+  float: none;
+  clear: both;
+  padding: 8px;
+}
+/* line 104, ../sass/style.scss */
+#main-nav ul li ul li a {
+  color: white;
+}
+
+/* line 113, ../sass/style.scss */
+#main-content {
+  padding: 48px;
+  padding-top: 0;
+  overflow: hidden;
+}
+
+/* line 119, ../sass/style.scss */
+#content-left {
+  width: 580px;
+  float: left;
+  margin-right: 60px;
+}
+
+/* line 125, ../sass/style.scss */
+#content-right {
+  width: 240px;
+  float: left;
+}
+/* line 128, ../sass/style.scss */
+#content-right #user-menu-block {
+  background: #505052;
+  padding: 12px;
+  margin-bottom: 48px;
+}
+/* line 132, ../sass/style.scss */
+#content-right #user-menu-block .user-block-title {
+  font-size: 18px;
+}
+/* line 136, ../sass/style.scss */
+#content-right #user-menu-block ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 12px;
+}
+/* line 140, ../sass/style.scss */
+#content-right #user-menu-block ul li {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 12px;
+}
+/* line 144, ../sass/style.scss */
+#content-right #user-menu-block ul li a {
+  color: white;
+}
+/* line 146, ../sass/style.scss */
+#content-right #user-menu-block ul li a:hover {
+  color: #90a2d3;
+}
+
+/* line 155, ../sass/style.scss */
+#resources-block {
+  background: #ececec;
+  padding: 12px;
+}
+/* line 158, ../sass/style.scss */
+#resources-block p {
+  border-color: white;
+}
+
+/* line 163, ../sass/style.scss */
+#footer {
+  clear: both;
+  width: 100%;
+  height: 100px;
+  padding-top: 12px;
+  width: 980px;
+  margin: 0 auto;
+}
+/* line 170, ../sass/style.scss */
+#footer ul {
+  padding: 0;
+}
+/* line 172, ../sass/style.scss */
+#footer ul li {
+  float: left;
+  display: block;
+  padding-right: 12px;
+  min-width: 100px;
+}
+/* line 177, ../sass/style.scss */
+#footer ul li a {
+  color: white;
+}
+/* line 180, ../sass/style.scss */
+#footer ul li ul {
+  clear: both;
+  display: block;
+}
+/* line 183, ../sass/style.scss */
+#footer ul li ul li {
+  border-bottom: 0;
+  float: none;
+  clear: both;
+  padding: 12px;
+}
+
+/* line 194, ../sass/style.scss */
+.news-article {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #ececec;
+}
+
+/* line 200, ../sass/style.scss */
+.article-title {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+/* line 205, ../sass/style.scss */
+.post-date {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #505052;
+}
